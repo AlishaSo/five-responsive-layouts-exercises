@@ -1,0 +1,38 @@
+html, *, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(90deg, #e995c3, #00b7ff);
+  background-repeat: no-repeat;
+  color: hsla(0, 0%, 100%, 0.836);
+  /* height: 100vh; */
+  margin: 0;
+}
+
+/* header {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  padding: 1em 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+} */
+
+.wrapper {
+  /* align-items: center;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column; */
+  /* justify-content: center; */
+  /* margin: 0 auto; */
+  /* padding: 1em; */
+  /* width: 80%;  */
+}
+
+img {
+  width: 400px;
+}
