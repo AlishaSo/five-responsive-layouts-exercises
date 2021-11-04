@@ -1,0 +1,95 @@
+html, *, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.encaser {
+    align-items: center;
+    /* border: .25em dashed salmon; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 2.5% 0;
+}
+
+.box {
+    border: .15em solid #73befc;
+    border-radius: .25em;
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.block {
+    /* border: .45em dotted rgba(255, 255, 119, 0.911); */
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.box-a {
+    margin-bottom: 2.5%;
+    width: 80%;
+}
+
+.box-b {
+    margin-bottom: 2.5%;
+    width: 100%;
+}
+
+.box-c {
+    margin-right: 2.5%;
+    order: 1;
+    width: 48.75%;
+}
+
+.box-d {
+    order: 1;
+    width: 48.75%;
+}
+
+.box-e {
+    margin-bottom: 2.5%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 22.55rem) { /* 451px; browser's font size is 20 */
+    .encaser {
+        padding: 10% 0;
+    }
+
+    .block {
+        /* border: .45em dotted rgba(255, 255, 119, 0.911); */
+        /* padding-bottom: 2.5%; */
+        width: 60%;
+    }
+
+    .box-a {
+        margin-bottom: 1.7%;
+        width: 60%;
+    }
+    
+    .box-b {
+        margin-right: 2.5%;
+        width: 70.5%;
+    }
+    
+    .box-c {
+        /* margin-right: .45em; */
+        width: 25%;
+    }
+    
+    .box-d {
+        width: 72.5%;
+    }
+    
+    .box-e {
+        /* margin-bottom: 0; */
+        width: 27%;
+    }
+}

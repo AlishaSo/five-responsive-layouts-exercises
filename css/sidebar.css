@@ -1,0 +1,64 @@
+html, *, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.parent {
+    align-items: center;
+    /* border: 4px dashed salmon; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+    min-height: 50vh;
+}
+
+.box {
+    align-items: center;
+    border: .25em solid #73befc;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 2rem 0;
+    text-align: center;
+    width: 12.5em;  /* 200px */
+}
+
+.left {
+    border-radius: .45em .45em 0 0;
+    margin-bottom: .5em;
+}
+
+.right {
+    border-radius: 0 0 .45em .45em;
+}
+
+@media screen and (min-width: 22.5rem) { /* 450px; browser's font size is 20 */
+    .parent {
+        flex-direction: row;
+    }
+    
+    .box {
+        padding: 5rem 0;
+    }
+    
+    .left {
+        border-radius: .45em 0 0 .45em;
+        flex-basis: 4.6875em;
+        flex-grow: 0;  /* undo from mobile layout */
+        margin-bottom: 0; /* undo the bottom margin for mobile layout */
+        margin-right: .5em;
+        /* width: 4.6875em;  */  /* 75px */
+    }
+
+    .right {
+        flex-basis: 9.375em;
+        /* flex-grow: 1; */
+        border-radius: 0 .45em .45em 0;
+        /* width: 9.375em; */ /* 150px */
+    }
+}
