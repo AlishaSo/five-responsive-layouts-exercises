@@ -9,6 +9,15 @@ body {
     margin: 0;
 }
 
+h1 {
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
 .container {
     align-items: center;
     background-color: hsl(0, 0%, 100%);

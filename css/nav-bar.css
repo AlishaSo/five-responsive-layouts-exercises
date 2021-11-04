@@ -10,19 +10,14 @@ body {
     margin: 0;
 }
 
-/* ul { 
-    border: 2px solid red;
-} */
+h1 {
+    color: red;
+    text-align: center;
+}
 
-/* nav {
-    border: 2px solid black;
-} */
-
-/* li {
-    border: 2px solid green;
-    list-style: none;
-    /* padding: .125em;
-} */
+h2 {
+    text-align: center;
+}
 
 .wrapper {
     align-items: center;
