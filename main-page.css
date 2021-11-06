@@ -25,17 +25,18 @@ a {
   color: hsl(0, 50%, 93%);
   /* color: hsl(11, 46%, 85%); */
   /* background: blanchedalmond; */
-  text-decoration-style: wavy;
+  text-decoration-style: dotted;
   text-align: center;
   /* text-decoration: none; */
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline wavy;
 }
 
 a:visited {
   color: #ede9ff;
+  text-decoration: none;
 }
 
 img {
@@ -65,7 +66,7 @@ footer {
 
 /* Tablet Styles */
 
-@media only screen and (min-width: 26.5625em) and (max-width: 56.25em) { /* 425px and 900px respectively, assuming the browser's font size is 16*/
+@media only screen and (min-width: 23.4375em) and (max-width: 56.25em) { /* 375px and 900px respectively, assuming the browser's font size is 16*/
   img {
     width: 300px;
   }
