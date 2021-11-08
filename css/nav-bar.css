@@ -46,7 +46,7 @@ a {
     border: 2px dashed slateblue;
 } */
 
-@media screen and (min-width: 28.125rem) {
+@media screen and (min-width: 23.4375em) {  /* 375px */
     .wrapper {
         flex-direction: row;
         min-height: 30vh;

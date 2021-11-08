@@ -46,7 +46,7 @@ h2 {
     border-radius: 0 0 .45em .45em;
 }
 
-@media screen and (min-width: 22.5rem) { /* 450px; browser's font size is 20 */
+@media screen and (min-width: 23.4375em) { /* 375px */
     .parent {
         flex-direction: row;
     }
