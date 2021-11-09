@@ -52,7 +52,7 @@ h2 {
 
 /* Desktop styles */
 
-@media only screen and (min-width: 23.4375em) {  /* 375px */
+@media only screen and (min-width: 26.8125em) { /* 429px */
     .container {
         height: 50vh;
         justify-content: center;

@@ -46,7 +46,7 @@ h2 {
     border-radius: 0 0 .45em .45em;
 }
 
-@media screen and (min-width: 23.4375em) { /* 375px */
+@media screen and (min-width: 26.8125em) { /* 429px */
     .parent {
         flex-direction: row;
     }

@@ -67,7 +67,7 @@ h2 {
     width: 100%;
 }
 
-@media only screen and (min-width: 23.4375em) { /* 375px */
+@media only screen and (min-width: 26.8125em) { /* 429px */
     .encaser {
         padding: 10% 0;
     }

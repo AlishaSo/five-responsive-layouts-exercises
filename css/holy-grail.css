@@ -69,7 +69,7 @@ h2 {
     margin-bottom: 2em;
 }
 
-@media only screen and (min-width: 23.4375em) { /* 375px */
+@media only screen and (min-width: 26.8125em) { /* 429px */
     .vessel {
         min-height: 100vh;
     }
