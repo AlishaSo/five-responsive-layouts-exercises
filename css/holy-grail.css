@@ -4,7 +4,6 @@ html, *, *:before, *:after {
 
 body {
     font-family: sans-serif;
-    margin: 0 auto;
 }
 
 h1 {
@@ -18,10 +17,13 @@ h2 {
 
 .vessel {
     align-items: center;
-    /* border: .45rem double salmon; */
+    border: .45rem double salmon;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: 100vh;
+    margin: 0 auto;
+    padding: 0 2em;
 }
 
 .box {
@@ -29,24 +31,24 @@ h2 {
     border: .15em solid #73befc;
     border-radius: .25em;
     display: flex;
-    flex-basis: 1.75em;
     justify-content: center;
-    padding: 1% 0;
-    width: 50%;
+    padding: 2em 0;
+    width: 100%;
 }
 
 .block {
-    /* border: 2px ridge goldenrod; */
+    border: 2px ridge goldenrod;
     display: flex;
     flex-direction: column;
-    margin-bottom: 2.5%;
-    width: 50%;
+    height: 50vh;
+    margin-bottom: 1em;
+    width: 100%;
 }
 
 .box-a {
-    margin-bottom: 2.5%;
-    margin-top: 2em;
-    order: -2;
+    height: 25vh;
+    margin-bottom: 1em;
+    order: -1;
 }
 
 .box-b {
@@ -54,60 +56,59 @@ h2 {
 }
 
 .box-c {
-    min-height: 3.75em;
     flex-grow: 1;
     margin-bottom: 4.5%;
-    order: -1;
-    width: 100%;
-}
-
-.box-d {
-    width: 100%;
 }
 
 .box-e {
-    margin-bottom: 2em;
+    height: 25vh;
 }
 
 @media only screen and (min-width: 26.8125em) { /* 429px */
     .vessel {
+        margin-bottom: 3em;
+        max-width: 64.1em;
         min-height: 100vh;
+        padding: 0;
     }
 
     .block {
         /* border: 2px ridge goldenrod; */
         flex-direction: row;
         flex-wrap: wrap;
-        /* display: flex; */
-        height: 20%;
-        /* margin-bottom: 2.5%; */
-        width: 70%;
+        height: 33.33vh;
+        width: 100%;
     }
     
     .box {
         padding: 2.5% 0;
-        width: 70%;
+        width: 100%;
     }
 
     .box-a {
+        height: 33.33vh;
         order: 0;
     }
     
     .box-b {
         display: flex;
         margin-bottom: 0;
-        min-width: 12.5%;
+        width: 13.5%;
     }
 
     .box-c {
         flex-basis: 2em;
-        margin: 0 3%;
+        margin: 0 1em;
         order: 0;
-        min-width: 69%;
+        width: 73%;
     }
 
     .box-d {
         margin-bottom: 0;
-        min-width: 12.5%;
+        width: 13.5%;
+    }
+
+    .box-e {
+        height: 33.33vh;
     }
 }
