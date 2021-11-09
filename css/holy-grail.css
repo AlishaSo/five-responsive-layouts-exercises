@@ -46,7 +46,7 @@ h2 {
 }
 
 .box-a {
-    height: 25vh;
+    /* height: 25vh; */
     margin-bottom: 1em;
     order: -1;
 }
@@ -57,11 +57,16 @@ h2 {
 
 .box-c {
     flex-grow: 1;
+    /* height: 33.33vh; */
     margin-bottom: 4.5%;
 }
 
+.box-d {
+    /* height: 16.67vh; */
+}
+
 .box-e {
-    height: 25vh;
+    /* height: 25vh; */
     margin-bottom: 1em;
 }
 
