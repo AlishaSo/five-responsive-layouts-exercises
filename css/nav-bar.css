@@ -28,28 +28,22 @@ h2 {
     flex-direction: column;
     justify-content: space-around;
     margin: 1rem auto 0;
-    min-height: 50vh;
     max-width: 12.5rem;
 }
 
-/* .btn {
-    background-color: whitesmoke;
-    border: 2px dashed red;
-} */
+.btn {
+    /* border: 2px dashed red; */
+    padding: .5em;
+}
 
 a {
     color: rgb(23, 21, 34);
     text-decoration: none;
 }
 
-/* .nav-bar > ul {
-    border: 2px dashed slateblue;
-} */
-
 @media screen and (min-width: 26.8125em) { /* 429px */
     .wrapper {
         flex-direction: row;
-        min-height: 30vh;
         min-width: 25rem;
     }
 }

@@ -3,7 +3,7 @@ html, *, *:before, *:after {
 }
 
 body {
-  background-image: linear-gradient(260deg, #f55a9b, #68e3f9);
+  background-image: linear-gradient(270deg, hsla(189, 92%, 69%, 1) 0%, hsla(335, 89%, 66%, 1) 100%);
   background-repeat: no-repeat;
   color: hsl(0, 0%, 96%);
   font-size: 1.3rem;
