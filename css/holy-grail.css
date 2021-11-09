@@ -17,7 +17,7 @@ h2 {
 
 .vessel {
     align-items: center;
-    border: .45rem double salmon;
+    /* border: .45rem double salmon; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,7 +37,7 @@ h2 {
 }
 
 .block {
-    border: 2px ridge goldenrod;
+    /* border: 2px ridge goldenrod; */
     display: flex;
     flex-direction: column;
     height: 50vh;
@@ -62,14 +62,15 @@ h2 {
 
 .box-e {
     height: 25vh;
+    margin-bottom: 1em;
 }
 
 @media only screen and (min-width: 26.8125em) { /* 429px */
     .vessel {
-        margin-bottom: 3em;
-        max-width: 64.1em;
+        margin: 0 auto;
+        max-width: 64.1em; /* 1025px based on 16px root font size*/
         min-height: 100vh;
-        padding: 0;
+        padding: 0 1.5em;
     }
 
     .block {
@@ -110,5 +111,6 @@ h2 {
 
     .box-e {
         height: 33.33vh;
+        margin-bottom: 1.5em;
     }
 }
